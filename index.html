@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service Page</title>
+    
+    <!-- CDN Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Animate.css CDN for animations -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    
+    <style>
+        /* Custom styles for the website */
+        
+        .hero {
+            background-image: url('image.png'); /* CDN image */
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+        
+        .section {
+            padding: 60px 0;
+        }
+        
+        .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">car rental service page</a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero animate__animated animate__fadeIn">
+        <div>
+            <h1>Welcome to Car Rental Service</h1>
+            <p>Your perfect ride, just a click away.</p>
+            <a href="#services" class="btn btn-primary animate__animated animate__zoomIn">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="section animate__animated animate__fadeInUp">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We provide a wide variety of rental cars for every occasion. Whether it's a business trip, vacation, or a special event, we've got you covered.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section animate__animated animate__fadeInLeft">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="image1.png" class="img-fluid" alt="Luxury Car">
+                    <p>Luxury Car Rentals</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="image2.png" class="img-fluid" alt="Sedan">
+                    <p>Sedan Rentals</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="image3.png" class="img-fluid" alt="SUV">
+                    <p>SUV Rentals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section animate__animated animate__zoomIn">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="image1.png" class="img-fluid" alt="Car Gallery">
+                </div>
+                <div class="col-md-4">
+                    <img src="image2.png" class="img-fluid" alt="Luxury Car Gallery">
+                </div>
+                <div class="col-md-4">
+                    <img src="image3.png" class="img-fluid" alt="SUV Gallery">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section animate__animated animate__fadeInRight">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us.</p>
+            <form>
+                <input type="text" class="form-control mb-3" placeholder="Your Name">
+                <input type="email" class="form-control mb-3" placeholder="Your Email">
+                <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Car Rental Service | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p>Follow us on <a href="#">Facebook</a>, <a href="#">Instagram</a>, and <a href="#">Twitter</a></p>
+    </footer>
+
+    <!-- CDN for Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+
+</html>
